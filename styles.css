@@ -80,6 +80,7 @@ hr {
 .header .header-heading {
      color: var(--secondary-color);
      text-align: center;
+     margin: 0.5rem;
 }
 .header .header-heading .heading-highlight {
      color: var(--primary-color);
