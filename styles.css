@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+body {
+     font-family: 'Heebo', sans-serif;
+     margin: 0rem;
+}
+
+:root {
+     --primary-color: #000077;
+     --secondary-color: #5E5BBA;
+     --background-color: #F1F1FA;
+}
+
+hr {
+     margin: 2rem 0rem;
+}
+
+/** containers **/
+.container {
+     padding: 0rem 1rem;
+}
+.container-center {
+     max-width: 600px;
+     margin: auto;
+}
+
+/** links **/
+.link {
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+}
+.primary-link {
+     background-color: var(--primary-color);
+     border-radius: 0.5rem;
+     color: white;
+}
+.secondary-link {
+     border: 1px solid var(--primary-color);
+     border-radius: 0.5rem;
+     color: var(--primary-color);
+}
+
+/** lists **/
+.list-non-bullet {
+     list-style: none;
+}
+.list-item-inline {
+     display: inline;
+     padding: 0rem 0.5rem;
+}
+
+/** nav **/
+.navigation {
+     background-color: var(--primary-color);
+     border-bottom-left-radius: 1rem;
+     padding: 0.5rem;
+     color: white;
+}
+.navigation-title {
+     font-weight: bold;
+     font-size: 1.1rem;
+}
+.nav-list  {
+     text-align: right;
+}
+.navigation .link {
+     color: white;
+}
+.navigation .active-link {
+     font-weight: bold;
+}
+
+/** header **/
+.header .header-img {
+     display: block;
+     max-width: 400px;
+     margin: auto;
+     padding: 4rem;
+}
+.header .header-heading {
+     color: var(--secondary-color);
+     text-align: center;
+}
+.header .header-heading .heading-highlight {
+     color: var(--primary-color);
+}
+
+/** sections **/
+.section {
+     padding: 1rem;
+}
+.section h1 {
+     text-align: center;
+}
+.section p {
+     text-align: justify;
+}
+.ow {
+     background-color: var(--background-color);
+}
+
+/** footer **/
+footer {
+     background-color: var(--primary-color);
+     padding: 1rem 1rem;
+     color: white;
+     text-align: center;
+     border-bottom-right-radius: 1rem;
+}
+.footer .link {
+     color: white;
+}
+.footer ul {
+     padding-inline-start: 0px;
+}
