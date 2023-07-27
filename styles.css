@@ -79,7 +79,7 @@ body {
      margin: 0.5rem;
 }     
 .header .header-heading {
-     color: var(--secondary-color);
+     color: var(--primary-color);
      text-align: center;
      padding: 0;
      margin-top: 0rem;
@@ -87,6 +87,15 @@ body {
 }
 .highlight {
      color: var(--primary-color);
+}
+.header .header-heading-proj {
+     color: var(--secondary-color);
+     text-align: center;
+     margin-top: 0rem;
+}
+.header h3 {
+     text-align: center;
+     color: var(--primary-color)
 }
 
 .section {
