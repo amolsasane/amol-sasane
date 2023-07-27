@@ -11,10 +11,6 @@ body {
      --background-color: #F1F1FA;
 }
 
-hr {
-     margin: 2rem 0rem;
-}
-
 /** containers **/
 .container {
      padding: 0rem 1rem;
@@ -58,8 +54,7 @@ hr {
 }
 .navigation-title {
      font-weight: bold;
-     font-size: 1.1rem;
-}
+     font-size: 1.2rem}
 .nav-list  {
      text-align: right;
 }
