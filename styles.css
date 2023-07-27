@@ -20,7 +20,7 @@ hr {
      padding: 0rem 1rem;
 }
 .container-center {
-     max-width: 600px;
+     max-width: 800px;
      margin: auto;
 }
 
@@ -46,7 +46,7 @@ hr {
 }
 .list-item-inline {
      display: inline;
-     padding: 0rem 0.5rem;
+     padding: 0rem 1rem;
 }
 
 /** nav **/
@@ -75,29 +75,61 @@ hr {
      display: block;
      max-width: 400px;
      margin: auto;
-     padding: 4rem;
+     padding-top: 4rem;
+     padding-bottom: 2rem;
 }
-.header .header-heading {
+.header .header-my-name {
      color: var(--secondary-color);
      text-align: center;
      margin: 0.5rem;
+}     
+.header .header-heading {
+     color: var(--secondary-color);
+     text-align: center;
+     padding: 0;
+     margin-top: 0rem;
+     margin-bottom: 3rem;
 }
-.header .header-heading .heading-highlight {
+.highlight {
      color: var(--primary-color);
 }
 
-/** sections **/
 .section {
-     padding: 1rem;
+     padding: 3rem;
 }
 .section h1 {
      text-align: center;
-}
-.section p {
-     text-align: justify;
+     margin-top: 0rem;
 }
 .ow {
      background-color: var(--background-color);
+}
+.section p {
+     text-align: center;
+     margin-bottom: 2rem;
+}
+.section .home-link {
+     display: block;
+     max-width: fit-content;
+     margin: auto;
+}
+.section ul {
+     padding: 0.5rem 0rem;
+}
+.bricks {
+     border: 1px solid var(--primary-color);
+     border-radius: 0.5rem;
+     color: black;
+     padding: 0.5rem 1rem;
+     box-shadow: 0px 12px 10px -4px var(--primary-color);
+}
+.container-flex {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     gap: 1rem;
 }
 
 /** footer **/
@@ -106,11 +138,18 @@ footer {
      padding: 1rem 1rem;
      color: white;
      text-align: center;
-     border-bottom-right-radius: 1rem;
+     border-top-right-radius: 1rem;
 }
-.footer .link {
+footer h3 {
+     padding-bottom: 1rem;
+}
+.footer .icon {
      color: white;
+     font-size: 1.5rem;
 }
 .footer ul {
      padding-inline-start: 0px;
+}
+.footer ul li {
+     padding: 0rem;
 }
