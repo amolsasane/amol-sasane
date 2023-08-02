@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSS Box Model | amolsasane</title>
+     <link href="styles.css" rel="stylesheet"/> 
+     <script
+      src="https://kit.fontawesome.com/1f5a04136d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+   </style>
+</head>
+<body>
+     <nav class="navigation container">
+          <div class="blog-nav-title">Amol Sasane Blogs</div>
+          <ul class="nav-list list-non-bullet">
+               <li class="list-item-inline">
+                    <a class="link" href=" /">Home</a>
+               </li>
+               <li class="list-item-inline">
+                    <a class="link" href="projects.html">Projects</a>
+               </li>
+               <li class="list-item-inline">
+                    <a class="link active-link" href="blogs.html ">Blogs</a>
+               </li>
+               <li class="list-item-inline">
+                    <a class="link" href="about.html">About Me</a>
+               </li>
+          </ul>
+     </nav>
+
+     <div class="container-center">
+          <h1 class="highlight blog-title">Understanding CSS Box Model</h1>
+          <p>July, 2023</p>
+          <hr>
+          <img class="blog-img-primary" src="images/box_model.png" /> 
+     </div>
+
+     <div class="container container-center container-blog">
+          
+          <p class="blog-para"><span class="initial"><strong>CSS</strong></span> Box Model is a fundamental concept in web development that plays a crucial role in how elements are displayed and laid out on a webpage. In this blog, we will explore the CSS Box Model, its components, and how it affects the layout and sizing of HTML elements.</p>>
+
+          <ol>
+               <li>
+                    <h3>What is the CSS Box Model?</h3> 
+                    <p>The CSS Box Model is a way of representing every HTML element as a rectangular box showing it's occupancy and position on the web page. This model consists of four essential components as shown in the above picture:</p>
+                    <br>
+                    <ul>
+                         <li>
+                              <strong>Content:</strong> The actual content of the element, such as text or an image. 
+                         </li>
+                         <li>
+                              <strong>Padding:</strong> The transparent space around the content inside the box.
+                         </li>
+                         <li>
+                              <strong>Border:</strong> A line that surrounds the padding and content.
+                         </li>
+                         <li>
+                              <strong>Margin:</strong> The transparent space outside the border, creating space between elements.
+                         </li>
+                    </ul>
+               </li>
+               <li>
+                    <h3>Understanding Each Component:</h3>
+                    <p>Let's take a closer look at each component of the CSS Box Model:</p>
+                <ul>        
+                    <li>
+                         <strong>Content:</strong> The content area is where the actual content of the element resides. Its size is determined by the element's width and height properties.
+                     </li>
+                     <br>
+                    <li>
+                         <strong>Padding:</strong> Padding is the space between the content and the element's border. It can be set using the 'padding' property and is useful for creating space within an element.
+                    </li>
+                    <br>
+                    <li>
+                         <strong>Border:</strong> The border surrounds the padding and content, acting as a visible boundary for the element. You can define the border's size, style, and color using the 'border' property.
+                    </li>
+                    <br>
+                    <li>
+                         <strong>Margin:</strong> The margin is the transparent space outside the border, creating the space between elements. It can be set using the 'margin' property.
+                    </li>
+                    </ul>
+               </li>
+               <li>
+                    <h3>Box Model Illustration:</h3>
+                    <p>Consider the following example:</p>
+                    <h4 class="center-head">HTML</h4>
+                    <img class="blog-img-secondary" src="images/html.png" />         
+                    <br>
+                    <h4 class="center-head">CSS</h4>
+                    <img class="blog-img-secondary" src="images/css.png" />
+                    <br>
+                    <h4 class="center-head">Output</h4>
+                    <div class="outline">
+                         <div class="box">
+                              This is the content of the box.
+                         </div>
+                    </div>
+                    <p>Here, in the above example we have created a container using 'div' tag in HTML and added a CSS stylesheet to it having properties width, height, padding, border and margin respectively set to it's perticular given values. </p>
+                    <br>
+                    <h4 class="center-head">To understand the specific style given to it, consider the following picture:</h4>
+                    <br>
+                    <img class="blog-img-secondary"src="images/bmx.png" />
+                    <br>
+                    <p>Here, the blue colored area shows the <span class="bold" style="color: blue">width and height</span> of the actual content. The green colored area shows the <span class="bold" style="color: green">padding</span> given to it. The purple outline is the <span class="bold" style="color: purple">border</span>  and lastly the orange colored area outside the border is the <span class="bold" style="color: rgb(228, 161, 35)">margin</span> applied to it.</p>
+                    <br>
+               </li>
+          </ol>
+
+          <h3>Conclusion:</h3>
+          <p>So, the next time you find yourself grappling with layout challenges, remember that the CSS box model is your trusty toolkit for building pixel-perfect designs that leave a lasting impression.</p>
+          <h4>Thank You</h4>
+          <hr>
+
+     </div>
+
+     <footer class="footer">
+          <div class="footer-heading">
+               <h3>Design your inspiration! Connect with me on social media.</h3>
+          </div>
+          <ul class="list-non-bullet">
+               <li class="list-item-inline">
+                    <a target="_blank" class="link"href="https://github.com/amolsasane"><i class="fab fa-github icon"></i></a>
+               </li>
+               <li class="list-item-inline">
+                    <a target="_blank" class="link"href="https://www.linkedin.com/in/amolsasane"><i class="fa fa-linkedin icon"></i></a>
+               </li>
+               <li class="list-item-inline">
+                    <a target="_blank" class="link"href="https://twitter.com/amolsasane_"><i class="fab fa-twitter icon"></i></a>
+               </li>
+               <li class="list-item-inline">
+                    <a target="_blank" class="link"href="https://www.instagram.com/amolsasane_"><i class="fab fa-instagram icon"></i></a>
+               </li>
+          </ul>
+     </footer>
+     
+</body>
+</html>
