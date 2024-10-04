@@ -7,12 +7,12 @@ This project is a showcase of my web development journey, including the projects
 
 ## 📋 Table of Contents
 
-- [Projects](#projects)
-- [Blogs](#blogs)
-- [About](#about)
-- [Technologies (Skills)](#technologies-skills)
-- [Contact Info](#contact-info)
-- [Social Profiles](#social-profiles)
+- [Projects](https://amolsasane.netlify.app/projects)
+- [Blogs](https://amolsasane.netlify.app/blogs.html)
+- [About](https://amolsasane.netlify.app/about)
+- [Technologies (Skills)](https://amolsasane.netlify.app/)
+- [Contact Info](https://amolsasane.netlify.app/)
+- [Social Profiles](https://amolsasane.netlify.app/)
 
 ---
 
